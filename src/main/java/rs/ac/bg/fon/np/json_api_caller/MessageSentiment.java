@@ -46,8 +46,8 @@ public class MessageSentiment {
 	}
 	@Override
 	public String toString() {
-		return "MessageSentiment [message=" + message + ", sentiment=" + sentiment + ", score=" + score
-				+ ", confidence=" + confidence + ", language=" + language + ", content_type=" + content_type + "]";
+		return "MessageSentiment \n\t[message=" + message + ", \n\tsentiment=" + sentiment + ", \n\tscore=" + score
+				+ ", \n\tconfidence=" + confidence + ", \n\tlanguage=" + language + ", \n\tcontent_type=" + content_type + "]";
 	}
     
     
